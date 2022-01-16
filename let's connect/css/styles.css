@@ -1,0 +1,44 @@
+.container_btn{
+
+
+width:100%;
+height:100%;
+}
+
+.btn{
+width:100px;
+height:50px;
+
+position:absolute;
+
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+background:#121212;
+outline:none;
+
+border:none;
+border-radius:20px;
+}
+.btn_link{
+text-align:center;
+vertical-align:middle;
+text-decoration:none;
+height:auto;
+width: auto;
+
+color:white;
+outline:none ;
+
+}
+
+.btn_link: active{
+
+outline:none;
+}
+.btn_link:link{
+
+outline:none;
+}
