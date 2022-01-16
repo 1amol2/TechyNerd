@@ -16,7 +16,7 @@ left:50%;
 
 transform:translate(-50%,-50%);
 
-background:#121212;
+background:#ffffff;
 outline:none;
 
 border:none;
@@ -29,12 +29,12 @@ text-decoration:none;
 height:auto;
 width: auto;
 
-color:white;
+color:#121212;
 outline:none ;
 
 }
 
-.btn_link: active{
+.btn_link:active{
 
 outline:none;
 }
