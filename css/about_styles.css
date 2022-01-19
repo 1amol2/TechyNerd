@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    background-color: #272727;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    
+    background-color: #171717;
+    width: 900px;
+    height: 1400px;
+    align-content: center;
+    
+    border-radius: 30px;
+    box-shadow: 2px 2px 30px #11121E;
+    
+}
+.aboutImg{
+    width: 100%;
+    background-color: black;
+    height: 600px;
+   
+   border-top-right-radius: 30px;
+   border-top-left-radius: 30px;
+    
+   
+   
+   
+}
+.author_name{
+    color: darkkhaki;
+    font-family: fantasy;
+    font-size: 40px;
+    padding-left: 30px;
+    text-decoration: underline;
+    line-height: 40px;
+    
+}
+.author_description{
+    color: white;
+    font-family: fantasy;
+    font-size:35px;
+    padding-left: 30px;
+}
+
+.social_link li{
+    display: inline-block;
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
+    
+    padding-left: 100px;
+    padding-top: 80px;
+   
+    font-size: 50px;
+}
+.social_link li a{
+    text-decoration: none;
+    color: #121212;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.social_link li a:hover{
+    background-color: #3E332A;
+    color: white;
+}
