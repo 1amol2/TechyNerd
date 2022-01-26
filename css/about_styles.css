@@ -3,9 +3,84 @@ body{
     padding: 0;
     align-items: center;
     align-content: center;
-    background-color: #272727;
+    
+    box-sizing: border-box;
 }
-.container{
+.about_header{
+    width: 100%;
+    height: auto;
+    background-color:#101010;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+  padding-left: 10px;
+  vertical-align: middle;
+  box-shadow: 0px 2px 7px #11121E;
+}
+.header_title{
+  color: white;
+  vertical-align: middle;
+  font-family: fantasy;
+ 
+  
+  
+   
+   margin-top: 0;
+   
+   font-size: 20px;
+  padding-top: 10px;
+ 
+   
+   
+}
+.menu li{
+    display: inline-block;
+    justify-content: space-between;
+    vertical-align: middle;
+    list-style: none;
+    
+    padding-bottom: 0px;
+      padding-right: 5px;
+      font-family: fantasy;
+}
+.menu li a:link{
+ 
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #DEE1FF;
+  list-style: none;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  
+ 
+}
+.menu li a:visited{
+    color: #DEE1FF;
+}
+.menu li a{
+    transition: all 0.3s ease-in-out 0s; 
+    padding: 10px;
+   
+}
+    
+
+.menu li a:active{
+   color: #DEE1FF;
+}
+.menu li a:hover{
+    color: #121212;
+    
+    background: white;
+    border-radius: 15px;
+}
+.menu{
+    padding: 10px;
+}
+.card{
     position: absolute;
     top:50%;
     left:50%;
