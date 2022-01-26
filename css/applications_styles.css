@@ -39,7 +39,7 @@ body{
 .title_and_desc_lt_holder{
     display: flex;
     flex-direction: column;
-    
+    padding-bottom: 20px;
     
    
 }
@@ -58,6 +58,7 @@ body{
     font-weight: bold;
     padding-left: 22px;
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .chatty_title{
@@ -75,6 +76,7 @@ body{
     font-weight: bold;
     padding-left: 22px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -84,17 +86,18 @@ body{
     
     
    
-   height: 300px;
+   
     border-radius: 20px;
     margin: 10px;
     box-shadow: 1px 1px 20px grey;
     background-color: #F7DCFF;
     
+    
 }
 .flex_item_lets_connect{
     
     
-   height: 300px;
+  
     border-radius: 20px;
     margin: 10px;
     
@@ -119,7 +122,7 @@ body{
 }
 
 .img_chatty_holder{
-   height: 280px;
+  
    width: 100px;
    padding: 10px;
   
@@ -128,18 +131,19 @@ body{
    border-radius: 20px 0px 0px 20px;
    z-index: 1;
 }
-.chatty_img{
-    padding-top: 90%;
-    padding-left: 0px;
+.lt_img{
+    vertical-align: middle;
+    align-self: center;
 }
-
 .img_lets_connect_holder{
-   height: 280px;
+  
    width: 100px;
    padding: 10px;
   
    box-shadow: 1px 1px 7px slategray;
-
+   vertical-align: middle;
+   align-content: center;
+   
    background-color:#1F0F00;
    border-radius: 20px 0px 0px 20px;
 }
